@@ -4,10 +4,9 @@ This was created purely for education purposes. Keep in mind this was not create
 ![alt text](https://github.com/X8J/AImware/blob/main/GUI.png?raw=true)
 
 # Requirements
-Python - https://www.python.org/
-Packages - pip install ctypes time tkinter torch ultralytics pynput opencv-python numpy mss configparser
-.pt AI model - https://github.com/SunOner/sunone_aimbot/raw/refs/heads/main/models/sunxds_0.5.6.pt
-(File too big to publish through browser)
++ Python - https://www.python.org/
++ Packages - pip install ctypes time tkinter torch ultralytics pynput opencv-python numpy mss configparser
++ .pt AI model - https://github.com/SunOner/sunone_aimbot/raw/refs/heads/main/models/sunxds_0.5.6.pt (File too big to publish through browser)
 
 To add
 + Video showcase
