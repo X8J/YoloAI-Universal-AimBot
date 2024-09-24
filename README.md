@@ -12,7 +12,9 @@ To add
 + Video showcase
 + "ESP" (Visual indication of detection)
 + Stylized GUI
-+ Packaged file 
++ Packaged file
++ Autofire
++ Snap mode
 
 # How to install
 WIP
