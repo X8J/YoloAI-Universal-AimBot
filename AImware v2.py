@@ -485,7 +485,7 @@ fov_slider = tk.Scale(scrollable_frame.scrollable_frame, from_=0, to=100, orient
 fov_slider.set(50)
 fov_slider.pack(pady=10)
 
-strength_slider = tk.Scale(scrollable_frame.scrollable_frame, from_=0.1, to=3.0, orient="horizontal", resolution=0.01, label="aimbot strength", command=adjust_aimbot_strength)
+strength_slider = tk.Scale(scrollable_frame.scrollable_frame, from_=0.1, to=10, orient="horizontal", resolution=0.01, label="aimbot strength", command=adjust_aimbot_strength)
 strength_slider.set(1.5)
 strength_slider.pack(pady=10)
 
