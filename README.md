@@ -1,5 +1,5 @@
 # AImware
-This was created purely for education purposes. Keep in mind this was not created to bypass any anti-cheats or gain an unfair advantage, no attempt to bypass anticheats was made and some games may detect and ban for the use of this program. 
+This project is intended purely for education purposes. Keep in mind it is not intended to bypass any anti-cheats or gain an unfair advantage, no attempt to bypass anticheats was made and some games may detect and ban for the use of this program. 
 
 ![alt text](https://github.com/X8J/AImware/blob/main/GUI.png?raw=true)
 
