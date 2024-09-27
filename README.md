@@ -13,7 +13,7 @@ To add
 + "ESP" (Visual indication of detection)
 + Stylized GUI
 + Packaged file
-+ Autofire
++ Autofire (When cursor reachest target position, provide input)
 + Snap mode
 
 # How to install
