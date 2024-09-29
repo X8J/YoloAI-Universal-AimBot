@@ -9,7 +9,7 @@ This project is intended purely for education purposes. Keep in mind it is not i
 + .pt AI model - https://github.com/SunOner/sunone_aimbot/raw/refs/heads/main/models/sunxds_0.5.6.pt (File too big to publish through browser)
 
 To add
-+ Video showcase
++ Video showcase (& new channel for showcasing programs)
 + "ESP" (Visual indication of detection)
 + Stylized GUI
 + Packaged file
