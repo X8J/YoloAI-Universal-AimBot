@@ -16,6 +16,8 @@ To add
 + Autofire (When cursor reachest target position, provide input)
 + Snap mode
 
+Thank you Caden for help with this.
+
 # How to install
 WIP
  
