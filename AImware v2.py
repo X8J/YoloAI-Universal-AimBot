@@ -284,6 +284,24 @@ def adjust_aimbot_strength_based_on_distance(distance):
         return 1.2
     else:
         return 1.5
+def draw_target_square(bbox):
+    if canvas is None:
+        return
+
+    x1, y1, x2, y2 = bbox
+    actual_screen_width, actual_screen_height = get_screen_resolution()
+
+    # scale to match screen res
+    scale_x = actual_screen_width / resize_width
+    scale_y = actual_screen_height / resize_height
+
+    x1 = int(x1 * scale_x)
+    y1 = int(y1 * scale_y)
+    x2 = int(x2 * scale_x)
+    y2 = int(y2 * scale_y)
+
+    # draw green square
+    canvas.create_rectangle(x1, y1, x2, y2, outline="green", width=2)
 
 # run aimbot loop
 def run_aimbot():
@@ -310,14 +328,22 @@ def run_aimbot():
         if fov_overlay_enabled and not fov_drawn:
             draw_fov()
 
+        # clear other overlays
+        clear_overlay()
+
         if detected_players and (not aimbot_on_key_enabled or (aimbot_on_key_enabled and key_pressed)):
             closest_player = prioritize_targets(detected_players)
             move_mouse_to_target(closest_player)
+
+            # draw for closest player
+            draw_target_square(closest_player)
 
         elapsed_time = time.time() - start_time
         sleep_time = target_frame_time - elapsed_time
         if sleep_time > 0:
             time.sleep(sleep_time)
+
+            
 
 # threaded aimbot
 def threaded_aimbot():
