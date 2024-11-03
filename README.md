@@ -15,6 +15,7 @@ To add
 + Packaged file
 + Autofire (When cursor reachest target position, provide input)
 + Snap mode
++ Optimize
 
 Thank you Caden for help with this.
 
