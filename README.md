@@ -16,6 +16,7 @@ To add
 + Autofire (When cursor reachest target position, provide input)
 + Snap mode
 + Optimize
++ FIX - Aiming at weapon (Only aim at detected players)
 
 Thank you Caden for help with this.
 
