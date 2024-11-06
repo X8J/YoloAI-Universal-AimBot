@@ -1,6 +1,8 @@
 # AImware
 This project is intended purely for education purposes. Keep in mind it is not intended to bypass any anti-cheats or gain an unfair advantage, no attempt to bypass anticheats was made and some games may detect and ban for the use of this program. 
 
+This is a work in progress, and unoptimized! (May even cause a disadvantage in terms of performance issues hindering ability to aim properly... hopefully fixed soon).
+
 ![alt text](https://github.com/X8J/AImware/blob/main/GUI.png?raw=true)
 
 # Requirements
