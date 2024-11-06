@@ -10,7 +10,7 @@ This project is intended purely for education purposes. Keep in mind it is not i
 
 To add
 + Video showcase (& new channel for showcasing programs)
-+ "ESP" (Visual indication of detection)
++ "ESP" (Visual indication of detection) - Half added!
 + Stylized GUI
 + Packaged file
 + Autofire (When cursor reachest target position, provide input)
