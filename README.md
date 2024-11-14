@@ -3,6 +3,8 @@ This project is intended purely for education purposes. Keep in mind it is not i
 
 This is a work in progress, and unoptimized! (May even cause a disadvantage in terms of performance issues hindering ability to aim properly... hopefully fixed soon).
 
+Currently being updated in a private respository, updates soon
+
 ![alt text](https://github.com/X8J/AImware/blob/main/GUI.png?raw=true)
 
 # Requirements
